@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fugaz+One&family=Inter:wght@200;300;400;500;700&family=Josefin+Sans:wght@300;700&family=Lora:ital@0;1&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+font-family: 'Fugaz One', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+   
+}
+
+body {
+    background: #475d83e2;
+    font-size: 30px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    background: #475d8304;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 7%;
+}
+
+.detel h1 {
+    font-size: 65px;
+    color: #212121;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+span{
+    color: rgba(255, 166, 0, 0.685);
+}
+
+.detel p {
+    color: rgba (85, 190, 179, 1);
+    line-height: 45px;
+}
+
+.detel a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+.images:hover .girl {
+    left: 45%;
+}
+
+footer {
+    background-color:#475d8311;
+    color: #060404;
+    
+   
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.nifey {
+    text-decoration: none;
+    color: #100e0e;
+}
+ 
